@@ -1,0 +1,38 @@
+.checkoutProduct {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.checkoutProduct__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+    border-radius:15px;
+}
+.checkoutProduct__info {
+    padding-left: 20px;
+}
+
+.checkoutProduct__info > button {
+    background-color: #da2c38;
+    border: 1px solid #da2c38;
+    margin-top: 10px;
+    color:#fff;
+    border-radius:15px;
+    cursor:pointer;
+    font-weight:600;
+    padding:5px 10px;
+}
+.checkoutProduct__info > button:hover {
+color:#da2c38;
+    background-color:#fff;
+    border:1px solid #da2c38;
+}
+.checkoutProduct__title {
+    font-size: 17px;
+    font-weight: 800;
+}

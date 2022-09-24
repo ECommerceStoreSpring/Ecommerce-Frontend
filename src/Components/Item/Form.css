@@ -1,0 +1,100 @@
+.delBtn{
+    background-color: #ff0000; 
+    border:1px solid black;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.saveBtn{
+    background-color: #00ff4c; 
+    border:1px solid black;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.saveBtn_Effect{
+    background-color: #41c86a;
+    color: #fff;
+    border: 2px solid #41c86a;
+    padding:5px 15px;
+    border-radius:15px;
+    margin-left:15rem;
+}
+.saveBtn_Effect:hover{
+    background-color: #fff;
+    color: #41c86a;
+}
+.delBtn_Effect{
+    background-color:#fff;
+    color: #d33f49;
+    border: 2px solid #d33f49;
+    border-radius:15px;
+    padding:5px 10px;
+}
+.delBtn_Effect:hover {
+    background-color: #d33f49;;
+    color: #fff;
+}
+input{
+	width:400px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+	border-radius:15px;
+    background-color:#fff;
+    padding-left:10px;
+    border:1px solid #838383;
+    margin-bottom:1rem;
+}
+.form-group{
+    border: black;
+    margin-right:auto;
+	margin-left:auto;
+}
+.card-body{
+    margin-right:auto;
+	margin-left:auto;
+    border: black;
+    
+
+}
+.container{
+    background-color: #fff;
+	color:#05614c;
+	position:sticky;
+	box-sizing:border-box;
+	width: fit-content;
+	padding:25px 20px;
+	margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:20px;
+}
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight:600;
+    margin-left:20px;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
