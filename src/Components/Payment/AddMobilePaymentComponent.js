@@ -6,7 +6,6 @@ import payementService from '../../services/payementService';
 
 class AddMobilePaymentComponent extends Component {
 
-
     constructor(props) {
 
         const myTotal = props.match.params.subTotal;
@@ -50,9 +49,11 @@ class AddMobilePaymentComponent extends Component {
                 // this.props.history.push("/add-mobilePayment")
                 alert("Your payment has been saved successfully ✅ Please wait for the confirmation message ❗")
 
-                PayementService.sendConfirmationMsg(this.state.amount, this.state.pinNo)
+                PayementService.sendConfirmationMsg(this.state.amount, this.state.pinNo, this.state.phoneNo)
                     .then(response => {
                         alert("Confirmation Message sent successfully ✅")
+                        this.props.history.push(`/`);
+                        window.location.reload(true);
                     })
                     .catch(err => {
                         alert(err)

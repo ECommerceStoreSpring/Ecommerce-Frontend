@@ -10,7 +10,10 @@ import Images from "../../assests/Images";
 const Header = () => {
 
     const [{ basket, user }] = useStateValue();
-
+    // console.log(user)
+    console.log("User Details:")
+    console.log(user?.email)
+    let user_email = user?.email;
     const loginFunc = () => {
         if (user) {
             auth.signOut();
@@ -31,17 +34,17 @@ const Header = () => {
             <div className="header__nav">
                 <Link to={!user && "/login"} className="header__link">
                     <div onClick={loginFunc} className="header__option">
-                        <span className="header__optionLineOne">Hello {user?.email}</span>
+                        <span className="header__optionLineOne">{user?.email}</span>
                         <span className="header__optionLineTwo">{ user? 'Sign Out' : 'Sign In'}</span>
                     </div>
                 </Link>
-                <Link to="/login" className="header__link">
+                { user_email=="admin@gmail.com" && <Link to="/items" className="header__link">
                     <div className="header__option">
-                        <span className="header__optionLineOne">Returns</span>
-                        <span className="header__optionLineTwo">& Orders</span>
+                        <span className="header__optionLineOne">Manage</span>
+                        <span className="header__optionLineTwo">Items</span>
                     </div>
-                </Link>
-                <Link to="/login" className="header__link">
+                </Link>}
+                <Link to="/checkout" className="header__link">
                     <div className="header__option">
                         <span className="header__optionLineOne">Your</span>
                         <span className="header__optionLineTwo">Cart</span>

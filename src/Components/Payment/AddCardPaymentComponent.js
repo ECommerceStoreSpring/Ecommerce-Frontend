@@ -59,6 +59,8 @@ class AddCardPaymentComponent extends Component {
 
         PayementService.addCardPayment(payement).then(response => {
             alert("Your payment was saved💯✅ .Check your E-Mail for more information❗.")
+            this.props.history.push(`/`);
+            window.location.reload(true);
         }).catch(err =>
             alert("🔴 Please check again your payement details❗.")
 
