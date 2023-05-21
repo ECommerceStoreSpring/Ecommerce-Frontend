@@ -6,24 +6,26 @@
     justify-content: space-between;
     padding: 20px;
     background-color: #f3f3f3;
-    border: 1px solid #05614c;;
+    border: 1px solid #007dfe;
+    ;
     border-radius: 15px;
 }
 
 button {
-    background: #41c86a;
+    background: #007dfe;
     width: max-content;
-    padding:5px 15px;
+    padding: 5px 15px;
     height: 30px;
     margin-top: 10px;
     color: #fff;
-    border-radius:15px;
-    margin-left:3.5rem;
-    border:1px solid #41c86a;
-    font-weight:600;
-    cursor:pointer;
+    border-radius: 15px;
+    margin-left: 3.5rem;
+    border: 1px solid #007dfe;
+    font-weight: 600;
+    cursor: pointer;
 }
+
 button:hover {
-color: #41c86a;
-    background:#fff;
+    color: #007dfe;
+    background: #fff;
 }

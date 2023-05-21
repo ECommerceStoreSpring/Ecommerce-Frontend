@@ -1,8 +1,9 @@
-.addbtn{
+.addbtn {
   background-color: #00e1ff;
   border: 1px solid black;
   color: rgb(0, 0, 0);
-  padding: 10px 10px;;
+  padding: 10px 10px;
+  ;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -12,27 +13,30 @@
   cursor: pointer;
   margin-left: 300px;
   border-radius: 5px;
-  
+
 }
-.addbtn_Effect{
-  background-color: #41c86a;
+
+.addbtn_Effect {
+  background-color: #007dfe;
   color: #fff;
-  border: 2px solid #41c86a;
-  padding:5px 15px;
-  border-radius:15px;
-  margin-left:64rem;
+  border: 2px solid #007dfe;
+  padding: 5px 15px;
+  border-radius: 15px;
+  margin-left: 64rem;
 }
-.addbtn_Effect:hover{
+
+.addbtn_Effect:hover {
   background-color: #fff;
-  color: #41c86a;
+  color: #007dfe;
 
 }
 
-.delibtn{
+.delibtn {
   background-color: #dff708;
   border: 1px solid black;
   color: rgb(0, 0, 0);
-  padding: 10px 10px;;
+  padding: 10px 10px;
+  ;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -42,25 +46,28 @@
   cursor: pointer;
   margin-left: 300px;
   border-radius: 5px;
-  
+
 }
-.delibtn_Effect{
-  background-color:#41c86a;
+
+.delibtn_Effect {
+  background-color: #007dfe;
   color: #fff;
-  border: 2px solid #41c86a;
-  border-radius:15px;
-  padding:5px 10px;
+  border: 2px solid #007dfe;
+  border-radius: 15px;
+  padding: 5px 10px;
 }
-.delibtn_Effect:hover{
-  color: #41c86a;
+
+.delibtn_Effect:hover {
+  color: #007dfe;
   background-color: #fff;
 }
 
-.editBtn{
-  background-color: #b9e02b; 
+.editBtn {
+  background-color: #b9e02b;
   border: 1px solid black;
   color: rgb(0, 0, 0);
-  padding: 10px 20px;;
+  padding: 10px 20px;
+  ;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -70,22 +77,26 @@
   cursor: pointer;
   border-radius: 5px;
 }
-.editBtn_Effect{
-  background-color: #41c86a;
+
+.editBtn_Effect {
+  background-color: #007dfe;
   color: #fff;
-  border: 2px solid #41c86a;
-  padding:5px 15px;
-  border-radius:15px;
+  border: 2px solid #007dfe;
+  padding: 5px 15px;
+  border-radius: 15px;
 }
-.editBtn_Effect:hover{
+
+.editBtn_Effect:hover {
   background-color: #fff;
-  color: #41c86a;
+  color: #007dfe;
 }
-.delBtn{
-  background-color: #ff0000; 
-  border:1px solid black;
+
+.delBtn {
+  background-color: #ff0000;
+  border: 1px solid black;
   color: rgb(0, 0, 0);
-  padding:10px 20px;;
+  padding: 10px 20px;
+  ;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -95,55 +106,61 @@
   cursor: pointer;
   border-radius: 5px;
 }
-.delBtn_Effect{
-  background-color: white; 
-  color: black; 
+
+.delBtn_Effect {
+  background-color: white;
+  color: black;
   border: 2px solid #ff0000;
 }
-.delBtn_Effect:hover{
+
+.delBtn_Effect:hover {
   background-color: #ff0000;
   color: rgb(0, 0, 0);
 }
 
 .items {
   font-family: 'Poppins', sans-serif;
-    margin-right:auto;
-	  margin-left:auto;
-    margin-bottom: 100px;
-    border-collapse: collapse;
-    position:sticky;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+  border-collapse: collapse;
+  position: sticky;
 }
-  
-.items td, .items th {
-    border: 1px solid #6cb279;
-    padding: 8px;
-}
-  
+
+.items td,
 .items th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    background-color: #6cb279;
-    color: #fff;
-    font-size: 16px;
-  font-weight:500;
-}
-.div_body{
-	display:flex;
-
-  
-} 
-.itemImage{
-    width: 10em;
-    height: 10em;
-  border-radius:15px;
+  border: 1px solid #6cb279;
+  padding: 8px;
 }
 
-h1{
-    text-align: center;
-    position: sticky;
-    font-family: Arial, Helvetica, sans-serif;
+.items th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #6cb279;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
 }
+
+.div_body {
+  display: flex;
+
+
+}
+
+.itemImage {
+  width: 10em;
+  height: 10em;
+  border-radius: 15px;
+}
+
+h1 {
+  text-align: center;
+  position: sticky;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* .addItemDiv{
     margin-left: 340px; 
     border: 1px solid #4CAF50;
@@ -153,15 +170,16 @@ h1{
 } */
 .div_body {
   background-color: white;
- 
+
 }
 
 /*card button and Mobile button*/
-.cardBtn{
-  background-color: #8a8a91; 
-  border:1px solid black;
+.cardBtn {
+  background-color: #8a8a91;
+  border: 1px solid black;
   color: rgb(0, 0, 0);
-  padding:10px 20px;;
+  padding: 10px 20px;
+  ;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -171,23 +189,26 @@ h1{
   cursor: pointer;
   border-radius: 5px;
 }
-.cardBtn_Effect{
-  background-color: white; 
-  color:#05614c;
-  border: 2px solid #05614c;
-  padding:5px 15px;
-  border-radius:15px;
+
+.cardBtn_Effect {
+  background-color: white;
+  color: #007dfe;
+  border: 2px solid #007dfe;
+  padding: 5px 15px;
+  border-radius: 15px;
 }
-.cardBtn_Effect:hover{
-  background-color: #05614c;
+
+.cardBtn_Effect:hover {
+  background-color: #007dfe;
   color: #fff;
 }
 
-.mobBtn{
-  background-color: #100cdf; 
-  border:1px solid black;
+.mobBtn {
+  background-color: #100cdf;
+  border: 1px solid black;
   color: rgb(0, 0, 0);
-  padding:10px 20px;;
+  padding: 10px 20px;
+  ;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -197,16 +218,17 @@ h1{
   cursor: pointer;
   border-radius: 5px;
 }
+
 .mobBtn_Effect {
-  background-color: #41c86a;
+  background-color: #007dfe;
   color: #fff;
-  border: 2px solid #41c86a;
-  padding:5px 15px;
-  border-radius:15px;
+  border: 2px solid #007dfe;
+  padding: 5px 15px;
+  border-radius: 15px;
 }
+
 .mobBtn_Effect:hover {
   background-color: #fff;
-  color: #41c86a;
+  color: #007dfe;
 
 }
-

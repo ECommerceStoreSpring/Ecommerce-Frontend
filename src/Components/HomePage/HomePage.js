@@ -26,14 +26,14 @@ const HomePage = () => {
                  src={Images.homeImage}
                  alt="imageBanner"/>
 
-            <h1>Fruits</h1>
+            <h1>Friction</h1>
             {/* row one */}
             <div className="home__row">
                 {displayLoading && <h3>Loading data...</h3>}
 
                 {
                     products.map((product) => {
-                            if (product.itemCatagory === "Fruit") {
+                            if (product.itemCatagory === "Friction") {
                                 return (<Product
                                     id={product.itemId}
                                     title={product.itemName}
@@ -49,14 +49,14 @@ const HomePage = () => {
 
             </div>
 
-            <h1>Vegetables</h1>
+            <h1>Novel</h1>
             {/* row two */}
             <div className="home__row">
                 {displayLoading && <h3>Loading data...</h3>}
 
                 {
                     products.map((product) => {
-                            if (product.itemCatagory === "Vegetable") {
+                            if (product.itemCatagory === "Novel") {
                                 return (<Product
                                     id={product.itemId}
                                     title={product.itemName}
